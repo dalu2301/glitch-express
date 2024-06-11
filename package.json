@@ -2,8 +2,7 @@
   "name": "glitch-express",
   "version": "1.0.0",
   "description": "Testing Express on Glitch",
-  "type": "module",
-  "scripts": {
+    "scripts": {
     "start": "node app.js"
   },
   "author": "Dan Lundberg",
