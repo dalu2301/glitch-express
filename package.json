@@ -2,12 +2,17 @@
   "name": "glitch-express",
   "version": "1.0.0",
   "description": "Testing Express on Glitch",
-    "scripts": {
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
     "start": "node app.js"
   },
   "author": "Dan Lundberg",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20.14.0"
   }
 }
